@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form </title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            height: 0%;
+            width: 50%;
+            border: 2px solid black;
+            background-color: rgb(0, 145, 255);
+            border-radius: 4%;
+            margin-left: 25%;
+            padding-left: 60px;
+            margin-top: 50px;
+            color: black;
+            font-size: large;
+        }
+
+        /* .container {
+            background-image: url(https://img.freepik.com/premium-photo/abstract-blur-defocused-luxury-hotel-lobby-background_1339-124777.jpg?w=2000);
+            background-size: cover;
+
+        } */
+        #name{
+            padding: 5px;
+            border-radius: 20px;
+        }
+        #phone{
+            padding: 5px;
+            border-radius: 20px;
+        }
+        #Email{
+            padding: 5px;
+            border-radius: 20px;
+        }
+        #pass{
+            padding: 5px;
+            border-radius: 20px;
+        }
+        #age{
+            padding: 5px;
+            border-radius: 20px;
+        }
+        #dob{
+            padding: 5px;
+            border-radius: 20px;
+            height: 28px;
+            width: 180px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <br>
+            <br>
+            <center><b>
+                    <h1>REGISTRATION FORM</h1>
+            </center>
+            <BR></BR>
+            <p>Name :
+                <input id="name" style="margin-left: 83px;" type="text" placeholder=" Enter Your Name">
+            </p>
+            <br>
+            <p>
+                Phone :
+                <input id="phone" style="margin-left: 80px;" type="text" placeholder=" Enter Your Phone Number">
+            </p>
+            <br>
+            <p>Email :
+                <input id="Email" style="margin-left: 80px;" type="text" placeholder=" Enter Your Email Id">
+            </p>
+            <br>
+            <p>
+                Passsword :
+                <input id="pass" style="margin-left: 45px;" type="text" placeholder=" Enter Your Passsword">
+            </p>
+            <br>
+            <p>
+                Age :
+                <input id="age" style="margin-left: 98px;" type="age" placeholder=" Enter Your Age"><br>
+            </p>
+            <br>
+            <p>
+                Date of Birth :
+                <input id="dob" style="margin-left: 30px;"  type="date">
+            </p>
+            <br>
+            <span>
+                Gender :
+            </span>
+            <label>
+                <input style="margin-left: 75px;" type="radio" name="Gender" value="male" id="male">
+                <span>
+                    Male
+                </span>
+            </label>
+            <label>
+                <input style="margin-left: 101px;" type="radio" name="Gender" value="female" id="female">
+                <span>
+                    Female
+                </span>
+                <label>
+                    <input style="margin-left: 92px;" type="radio" name="Gender" value="female" id="female">
+                    <span>
+                        Other
+                    </span>
+                </label>
+            </label>
+        </div><br>
+        <p>
+            <span>
+                Food Choice :
+            </span>
+            <label>
+                <input style="margin-left: 35px;" type="radio" name="Food Choice" value="Vegetarian">
+                <span>
+                    Vegetarian
+                </span>
+            </label>
+            <label>
+                <input style="margin-left: 60px;" type="radio" name="Food Choice" value="Non-Vegetarian">
+                <span>
+                    Non-Vegetarian
+                </span>
+            </label>
+        </p>
+        <br>
+        <p>
+            <span>
+                Vegetarian :
+            </span>
+            <label>
+                <input style="margin-left: 48px;" type="checkbox" value="Palak-Paneer ">
+                <span>
+                    Palak-Paneer
+                </span>
+            </label>
+            <label>
+                <input style="margin-left: 41px;" type="checkbox" value="Matar-Paneer">
+                <span>
+                    Matar-Paneer
+                </span>
+            </label>
+            <label>
+                <input style="margin-left: 39px;" type="checkbox" value="Paneer-Mashroom">
+                <span>
+                    Paneer-Mashroom
+                </span>
+            </label>
+        </p>
+        <br>
+        <p>
+            <span>
+                Non-Vegetarian :
+            </span>
+            <label>
+                <input style="margin-left: 10px;" type="checkbox" value=" Chicken-Biryani">
+                <span>
+                    Chicken-Biryani
+                </span>
+            </label>
+            <label>
+                <input style="margin-left: 18px;" type="checkbox" value="Chicken-Kabobe">
+                <span>
+                    Chicken-Kabobe
+                </span>
+            </label>
+            <label>
+                <input style="margin-left: 18px;" type="checkbox" value="Chicken-Corma">
+                <span>
+                    Chicken-Corma
+                </span>
+            </label>
+        </p>
+        <br>
+        <button style="background-color: brown; color: white;">Submit</button>
+        <button style="background-color: brown; color: white ; margin-left: 20px;">Reset</button>
+        <br>
+        <br>
+    </div>
+    </div>
+</body>
+
+</html>
